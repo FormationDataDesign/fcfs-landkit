@@ -7,6 +7,8 @@
   transition: $transition-base;
   transition-property: background-color, color;
   z-index: $zindex-fixed;
+  padding-top: 2px !important;
+  padding-bottom: 2px !important;
 }
 
 // Dark version
@@ -83,15 +85,6 @@
 
 .navbar-dark.fixed-top > .container {
   position: relative;
-
-  &::after {
-    content: "";
-    position: absolute;
-    right: 0;
-    bottom: -$navbar-padding-y;
-    left: 0;
-    border-top: $border-width solid fade-out($white, 0.8);
-  }
 }
 
 // Collapse

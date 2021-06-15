@@ -16,13 +16,16 @@
       data-jarallax
       data-speed=".8"
       class="pt-12 pb-10 pt-md-15 pb-md-14"
-      style="background-image: url(assets/img/covers/cover-3.jpg)"
+      style="
+        background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
+          url(assets/img/covers/rate.jpeg);
+      "
     >
       <div class="container">
         <div class="row align-items-center">
-          <div class="col-12 col-md-8 col-lg-6">
+          <div class="col-12 col-md-12 col-lg-8">
             <!-- Heading -->
-            <h1 class="display-3 fw-bold text-white" id="welcomeHeadingSource">
+            <h1 class="display-2 fw-bold text-white" id="welcomeHeadingSource">
               Home Mortgages with<br />
               <span
                 class="text-warning"
@@ -38,18 +41,18 @@
 
             <!-- Form -->
             <form>
-              <div class="input-group">
-                <span class="input-group-text pe-0 border-end-0">
-                  <i class="fe fe-search" id="searchAddon"></i>
-                </span>
-                <input
-                  class="form-control ps-2 border-start-0"
-                  type="search"
-                  placeholder="Search for a job"
-                  aria-label="Search for a job"
-                  aria-describedby="searchAddon"
-                />
+              <div class="row gx-4">
+                <div class="col-12 col-lg-auto">
+                  <!-- Button -->
+                  <button
+                    type="submit"
+                    class="btn w-100 btn-primary shadow lift"
+                  >
+                    Apply Online
+                  </button>
+                </div>
               </div>
+              <!-- / .form-row -->
             </form>
           </div>
         </div>

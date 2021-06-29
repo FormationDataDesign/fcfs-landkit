@@ -1,35 +1,38 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
-    {{> partials/head title="Landkit"}}
+    {{> partials/head title="Home Mortgages with Integrity"}}
   </head>
   <body class="pt-10 bg-light">
-
     <!-- MODALS -->
     {{> partials/modals}}
 
     <!-- NAVBAR -->
-    {{> partials/navbar classList="navbar-light fixed-top bg-white border-bottom" container="container-fluid" button="primary"}}
+    {{> partials/navbar classList="navbar-light fixed-top bg-white
+    border-bottom" container="container-fluid" button="primary"}}
 
     <!-- WELCOME -->
-    <section class="py-10 py-md-14 overlay overlay-black overlay-60 bg-cover" style="background-image: url(assets/img/covers/cover-5.jpg);">
+    <section
+      class="py-10 py-md-14 overlay overlay-black overlay-60 bg-cover"
+      style="background-image: url(assets/img/covers/cover-5.jpg)"
+    >
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-12 col-md-10 col-lg-8 text-center">
-
             <!-- Heading -->
-            <h1 class="display-2 fw-bold text-white">
-              We’re Here to Help.
-            </h1>
+            <h1 class="display-2 fw-bold text-white">What You Can Expect</h1>
 
             <!-- Text -->
             <p class="lead text-white-75 mb-0">
-              We always want to hear from you! Let us know how we can best help you and we'll do our very best.
+              Whether this is your first home, a refinance or the custom build
+              of your dreams, we’re here to provide guidance on every aspect of
+              the loan process.
             </p>
-
           </div>
-        </div> <!-- / .row -->
-      </div> <!-- / .container -->
+        </div>
+        <!-- / .row -->
+      </div>
+      <!-- / .container -->
     </section>
 
     <!-- SHAPE -->
@@ -39,148 +42,135 @@
       </div>
     </div>
 
-    <!-- INFO -->
-    <section class="py-7 py-md-9 border-bottom border-gray-300" id="info">
+    <!-- UNIFIED -->
+    <section class="py-8 py-md-11">
       <div class="container">
-        <div class="row">
-          <div class="col-12 text-center">
-
-            <!-- Button -->
-            <a href="#info" class="btn btn-white btn-rounded-circle shadow mt-n11 mt-md-n13" data-scroll>
-              <i class="fe fe-arrow-down"></i>
-            </a>
-
-          </div>
-        </div> <!-- / .row -->
-        <div class="row">
-          <div class="col-12 col-md-4 text-center border-end border-gray-300">
-
-            <!-- Heading -->
-            <h6 class="text-uppercase text-gray-700 mb-1">
-              Message us
-            </h6>
-
-            <!-- Link -->
-            <div class="mb-5 mb-md-0">
-              <a href="#!" class="h4 text-primary">
-                Start a chat!
-              </a>
-            </div>
-
-          </div>
-          <div class="col-12 col-md-4 text-center border-end border-gray-300">
-
-            <!-- Heading -->
-            <h6 class="text-uppercase text-gray-700 mb-1">
-              Call anytime
-            </h6>
-
-            <!-- Link -->
-            <div class="mb-5 mb-md-0">
-              <a href="#!" class="h4">
-                (555) 123-4567
-              </a>
-            </div>
-
-          </div>
-          <div class="col-12 col-md-4 text-center">
-
-            <!-- Heading -->
-            <h6 class="text-uppercase text-gray-700 mb-1">
-              Email us
-            </h6>
-
-            <!-- Link -->
-            <a href="#!" class="h4">
-              support@goodthemes.co
-            </a>
-
-          </div>
-        </div> <!-- / .row -->
-      </div>
-    </section>
-
-    <!-- FORM -->
-    <section class="pt-8 pt-md-11 pb-8 pb-md-14">
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-12 col-md-10 col-lg-8 text-center">
+        <div class="row align-items-center">
+          <div class="col-12 col-md-6 col-lg-5" data-aos="fade-up">
+            <!-- Badge -->
+            <span class="badge rounded-pill bg-success-soft mb-3">
+              <span class="h6 text-uppercase">Unified</span>
+            </span>
 
             <!-- Heading -->
             <h2 class="fw-bold">
-              Let us hear from you directly!
+              Replace your microservices <br />
+              <span class="text-success">with one simple app</span>.
             </h2>
 
             <!-- Text -->
-            <p class="fs-lg text-muted mb-7 mb-md-9">
-              We always want to hear from you! Let us know how we can best help you and we'll do our very best.
+            <p class="fs-lg text-gray-700">
+              Using our single innovative platform you can remove all your
+              communication dependencies and the messy rat's nest of email,
+              calls, texts, wikis, and apps you currently have.
             </p>
 
-          </div>
-        </div> <!-- / .row -->
-        <div class="row justify-content-center">
-          <div class="col-12 col-md-12 col-lg-10">
-
             <!-- Form -->
-            <form>
-              <div class="row">
-                <div class="col-12 col-md-6">
-                  <div class="form-group mb-5">
-
-                    <!-- Label -->
-                    <label class="form-label" for="contactName">
-                      Full name
-                    </label>
-
-                    <!-- Input -->
-                    <input class="form-control" id="contactName" type="text" placeholder="Full name">
-
+            <form class="mb-8">
+              <div class="row gx-4">
+                <div class="col-12 col-md">
+                  <!-- Input -->
+                  <div class="form-group mb-md-0">
+                    <input
+                      type="url"
+                      class="form-control bg-light border-0"
+                      placeholder="www.yoursite.com"
+                    />
                   </div>
                 </div>
-                <div class="col-12 col-md-6">
-                  <div class="form-group mb-5">
-
-                    <!-- Label -->
-                    <label class="form-label" for="contactEmail">
-                      Email
-                    </label>
-
-                    <!-- Input -->
-                    <input class="form-control" id="contactEmail" type="email" placeholder="hello@domain.com">
-
-                  </div>
-                </div>
-              </div> <!-- / .row -->
-              <div class="row">
-                <div class="col-12">
-                  <div class="form-group mb-7 mb-md-9">
-
-                    <!-- Label -->
-                    <label class="form-label" for="contactMessage">
-                      What can we help you with?
-                    </label>
-
-                    <!-- Input -->
-                    <textarea class="form-control" id="contactMessage" rows="5" placeholder="Tell us what we can help you with!"></textarea>
-
-                  </div>
-                </div>
-              </div> <!-- / .row -->
-              <div class="row justify-content-center">
-                <div class="col-auto">
-
+                <div class="col-12 col-md-auto">
                   <!-- Submit -->
-                  <button type="submit" class="btn btn-primary lift">
-                    Send message
-                  </button>
-
+                  <button class="btn btn-success-soft">Get started</button>
                 </div>
-              </div> <!-- / .row -->
+              </div>
             </form>
-
           </div>
-        </div> <!-- / .row -->
-      </div> <!-- / .container -->
+          <div class="col-12 col-md-6 col-lg-6 offset-lg-1">
+            <!-- Card -->
+            <div
+              class="card card-border border-success shadow-lg mb-5"
+              data-aos="fade-up"
+            >
+              <div class="card-body">
+                <!-- List group -->
+                <div class="list-group list-group-flush">
+                  <div class="list-group-item d-flex align-items-center">
+                    <!-- Text -->
+                    <div class="me-auto">
+                      <!-- Heading -->
+                      <p class="fw-bold mb-1">
+                        Your closing costs are guaranteed
+                      </p>
+
+                      <!-- Text -->
+                      <p class="fs-sm text-muted mb-0">
+                        We don't charge per seat, just per service.
+                      </p>
+                    </div>
+
+                    <!-- Check -->
+                    <div
+                      class="badge badge-rounded-circle bg-success-soft ms-4"
+                    >
+                      <i class="fe fe-check"></i>
+                    </div>
+                  </div>
+                  <div class="list-group-item d-flex align-items-center">
+                    <!-- Text -->
+                    <div class="me-auto">
+                      <!-- Heading -->
+                      <p class="fw-bold mb-1">
+                        Your rate will be what you were promised
+                      </p>
+
+                      <!-- Text -->
+                      <p class="fs-sm text-muted mb-0">
+                        Our server network never goes down.
+                      </p>
+                    </div>
+
+                    <!-- Check -->
+                    <div
+                      class="badge badge-rounded-circle bg-success-soft ms-4"
+                    >
+                      <i class="fe fe-check"></i>
+                    </div>
+                  </div>
+
+                  <div class="list-group-item d-flex align-items-center">
+                    <!-- Text -->
+                    <div class="me-auto">
+                      <!-- Heading -->
+                      <p class="fw-bold mb-1">
+                        Your satisfaction is our top priority
+                      </p>
+
+                      <!-- Text -->
+                      <p class="fs-sm text-muted mb-0">
+                        Keep your communication and data safe.
+                      </p>
+                    </div>
+
+                    <!-- Check -->
+                    <div
+                      class="badge badge-rounded-circle bg-success-soft ms-4"
+                    >
+                      <i class="fe fe-check"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Text -->
+            <p class="fs-sm text-center text-gray-500 mb-0">
+              * Limited to the life of the company
+            </p>
+          </div>
+        </div>
+        <!-- / .row -->
+      </div>
+      <!-- / .container -->
     </section>
 
     <!-- SHAPE -->
@@ -195,6 +185,5 @@
 
     <!-- JAVASCRIPT -->
     {{> partials/scripts}}
-
   </body>
 </html>

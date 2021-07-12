@@ -12,7 +12,7 @@
     border-bottom" container="container-fluid" button="primary"}}
 
     <!-- WELCOME -->
-    <section class="py-8 py-md-11 border-bottom">
+    <section class="py-8 py-md-11">
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-12 col-md-10 col-lg-10 text-center">
@@ -27,8 +27,6 @@
               ease since 2000. Our experienced team—in Denver, Colorado and
               Jacksonville, Florida—will stand beside you every step of the way,
               from pre-approval to final closing and everywhere in between.
-              We’re experts focused on your individual needs and building a
-              relationship that will last a lifetime.
             </p>
           </div>
         </div>
@@ -90,102 +88,88 @@
       <!-- / .container -->
     </section>
 
-    <!-- LOCATION -->
-    <section class="pt-8 pt-md-0 border-bottom bg-light">
+    <section class="border-top">
       <div class="container">
-        <div class="row">
-          <div class="col-12 col-md-6">
-            <!-- Map (mobile) -->
-            <div class="ratio ratio-1x1 d-md-none">
-              <div
-                data-map='{"center": [-118.244615, 34.052979], "zoom": 12}'
-              ></div>
-            </div>
-
-            <!-- Map -->
-            <div
-              class="position-relative h-100 vw-50 float-end d-none d-md-block"
-            >
-              <!-- Map -->
-              <div
-                class="h-100 w-100"
-                data-map='{"center": [-118.244615, 34.052979], "zoom": 12}'
-              ></div>
-
-              <!-- Shape -->
-              <div class="shape shape-end shape-fluid-y text-light">
-                {{> angles/angle-end}}
-              </div>
-            </div>
-          </div>
-          <div
-            class="col-12 col-md-6 col-lg-5 offset-lg-1 py-8 py-md-11 py-lg-12"
-          >
+        <div class="row justify-content-between align-items-stretch">
+          <div class="col-12 col-md-6 py-8">
             <!-- Heading -->
             <h2>
-              Located in Los Angeles.<br />
-              <span class="text-success"
-                >Enjoy
-                <span
-                  data-typed='{"strings": ["cultural diversity", "white sand beaches", "sunny weekends"]}'
-                ></span
-                >.</span
-              >
+              Our Core
+              <span class="text-primary">Values</span>.
             </h2>
 
             <!-- Text -->
-            <p class="fs-lg text-gray-700 mb-6">
-              We picked our office location to maximize our team's enjoyment!
-              LA's best restaurants are within walking distance, as well are
-              some of the finest coffee shops in the world. Come visit us and
-              you'll agree.
+            <p class="fs-lg text-gray-700 mb-7">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
+              vehicula auctor ornare. Nulla non ullamcorper tellus. Vestibulum
+              pulvinar eros nec tortor maximus, iaculis rutrum nibh mollis.
             </p>
 
-            <!-- Stats -->
+            <!-- Button -->
             <div class="d-flex">
-              <div class="pe-5">
-                <h3 class="text-success mb-0">
-                  <span
-                    data-countup='{"startVal": 0}'
-                    data-to="100"
-                    data-aos
-                    data-aos-id="countup:in"
-                    >0</span
-                  >%
-                </h3>
-                <p class="text-gray-700 mb-0">Approval</p>
+              <!-- Icon -->
+              <div class="badge badge-rounded-circle bg-primary-soft">
+                <i class="fe fe-check"></i>
               </div>
-              <div class="border-start border-gray-300"></div>
-              <div class="px-5">
-                <h3 class="text-success mb-0">
-                  <span
-                    data-countup='{"startVal": 0}'
-                    data-to="85"
-                    data-aos
-                    data-aos-id="countup:in"
-                    >0</span
-                  >%
-                </h3>
-                <p class="text-gray-700 mb-0">Sunny days</p>
+
+              <div class="ms-5">
+                <!-- Heading -->
+                <h4 class="mb-1">Honesty</h4>
+
+                <!-- Text -->
+                <p class="text-muted mb-6">
+                  We earn your trust by being completely transparent about the
+                  costs and laws associated with your loan.
+                </p>
               </div>
-              <div class="border-start border-gray-300"></div>
-              <div class="ps-5">
-                <h3 class="text-success mb-0">
-                  <span
-                    data-countup='{"startVal": 0}'
-                    data-to="52"
-                    data-aos
-                    data-aos-id="countup:in"
-                    >0</span
-                  >/<span
-                    data-countup='{"startVal": 0}'
-                    data-to="48"
-                    data-aos
-                    data-aos-id="countup:in"
-                    >0</span
-                  >
-                </h3>
-                <p class="text-gray-700 mb-0">Gender ratio</p>
+            </div>
+
+            <div class="d-flex">
+              <!-- Icon -->
+              <div class="badge badge-rounded-circle bg-primary-soft">
+                <i class="fe fe-check"></i>
+              </div>
+
+              <div class="ms-5">
+                <!-- Heading -->
+                <h4 class="mb-1">Service</h4>
+
+                <!-- Text -->
+                <p class="text-muted mb-6">
+                  We give you personal attention, advising you on the right
+                  mortgage to meet your financial goals.
+                </p>
+              </div>
+            </div>
+            <div class="d-flex">
+              <!-- Icon -->
+              <div class="badge badge-rounded-circle bg-primary-soft">
+                <i class="fe fe-check"></i>
+              </div>
+
+              <div class="ms-5">
+                <!-- Heading -->
+                <h4 class="mb-1">Integrity</h4>
+
+                <!-- Text -->
+                <p class="text-muted mb-6">
+                  We work in your best interest, making sure every interaction
+                  and transaction is built on truth and accuracy.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-5">
+            <!-- Image -->
+            <div
+              class="position-relative h-100 vw-50 bg-cover"
+              style="
+                background-image: url(assets/img/covers/window-dadkid.jpeg);
+              "
+            >
+              <!-- Shape -->
+              <div class="shape shape-start shape-fluid-y text-white">
+                {{> angles/angle-start}}
               </div>
             </div>
           </div>
@@ -195,188 +179,163 @@
       <!-- / .container -->
     </section>
 
-    <!-- COMPANIES -->
-    <section class="py-8 py-md-11">
+    <section class="py-8 py-md-11 bg-gradient-light-white border-bottom">
       <div class="container">
         <div class="row justify-content-center">
-          <div class="col-12 col-md-10 col-lg-7 text-center">
+          <div class="col-12 col-md-10 col-lg-8 text-center">
+            <!-- Badge -->
+            <span class="badge rounded-pill bg-primary-soft mb-3">
+              <span class="h6 text-uppercase">Our Team</span>
+            </span>
+
             <!-- Heading -->
-            <h2>
-              We strive to work with the best. <br />
-              The best companies in the world.
-            </h2>
+            <h1>Meet Our Team</h1>
 
             <!-- Text -->
             <p class="fs-lg text-muted mb-7 mb-md-9">
-              Landkit is a best place to work with some of the greatest tech
-              companies in the world.
+              All of us at First Class Financial embrace integrity as our key
+              value. As a result, we enjoy a solid base of loyal customers &
+              referral partner advocates who are happy to refer their friends
+              and family to us.
             </p>
           </div>
         </div>
         <!-- / .row -->
         <div class="row">
-          <div class="col-4 col-md-2">
-            <div
-              class="img-fluid img-fluid mb-6 mb-md-8"
-              style="color: #ff5a5f"
-            >
-              {{> logotype/airbnb}}
+          <div class="col-12 col-md-4 col-lg-3 d-flex">
+            <!-- Card -->
+            <div class="card mb-6 mb-lg-0 shadow-light-lg lift lift-lg">
+              <!-- Image -->
+              <a class="card-img-top" href="#!">
+                <img
+                  src="assets/img/photos/mike_2.jpg"
+                  alt="..."
+                  class="img-fluid"
+                />
+              </a>
+
+              <!-- Shape -->
+              <div class="position-relative">
+                <div class="shape shape-fluid-x shape-bottom text-white">
+                  {{> curves/curve-1}}
+                </div>
+              </div>
+
+              <!-- Body -->
+              <a class="card-body" href="#!">
+                <!-- Heading -->
+                <h3>Michael Delzer</h3>
+
+                <!-- Text -->
+                <p class="mb-0 text-muted">President / Founder</p>
+              </a>
             </div>
           </div>
-          <div class="col-4 col-md-2">
-            <div
-              class="img-fluid img-fluid mb-6 mb-md-8"
-              style="color: #0081c9"
-            >
-              {{> logotype/coinbase}}
+          <div class="col-12 col-md-4 col-lg-3 d-flex">
+            <!-- Card -->
+            <div class="card mb-6 mb-lg-0 shadow-light-lg lift lift-lg">
+              <!-- Image -->
+              <a class="card-img-top" href="#!">
+                <img
+                  src="assets/img/photos/chris_2.jpg"
+                  alt="..."
+                  class="img-fluid"
+                />
+              </a>
+
+              <!-- Shape -->
+              <div class="position-relative">
+                <div class="shape shape-fluid-x shape-bottom text-white">
+                  {{> curves/curve-1}}
+                </div>
+              </div>
+
+              <!-- Body -->
+              <a class="card-body" href="#!">
+                <!-- Heading -->
+                <h3>Chris Starks</h3>
+
+                <!-- Text -->
+                <p class="mb-0 text-muted">Sr Loan Officer</p>
+              </a>
             </div>
           </div>
-          <div class="col-4 col-md-2">
-            <div
-              class="img-fluid img-fluid mb-6 mb-md-8"
-              style="color: #da5988"
-            >
-              {{> logotype/dribbble}}
+          <div class="col-12 col-md-4 col-lg-3 d-flex">
+            <!-- Card -->
+            <div class="card mb-6 mb-lg-0 shadow-light-lg lift lift-lg">
+              <!-- Image -->
+              <a class="card-img-top" href="#!">
+                <img
+                  src="assets/img/photos/mark_2.jpg"
+                  alt="..."
+                  class="img-fluid"
+                />
+              </a>
+
+              <!-- Shape -->
+              <div class="position-relative">
+                <div class="shape shape-fluid-x shape-bottom text-white">
+                  {{> curves/curve-1}}
+                </div>
+              </div>
+
+              <!-- Body -->
+              <a class="card-body" href="#!">
+                <!-- Heading -->
+                <h3>Mark Ross</h3>
+
+                <!-- Text -->
+                <p class="mb-0 text-muted">Sr Loan Officer</p>
+              </a>
             </div>
           </div>
-          <div class="col-4 col-md-2">
-            <div
-              class="img-fluid img-fluid mb-6 mb-md-8"
-              style="color: #3f5d87"
-            >
-              {{> logotype/instagram}}
-            </div>
-          </div>
-          <div class="col-4 col-md-2">
-            <div
-              class="img-fluid img-fluid mb-6 mb-md-8"
-              style="color: #b81d24"
-            >
-              {{> logotype/netflix}}
-            </div>
-          </div>
-          <div class="col-4 col-md-2">
-            <div
-              class="img-fluid img-fluid mb-6 mb-md-8"
-              style="color: #cb2027"
-            >
-              {{> logotype/pinterest}}
-            </div>
-          </div>
-          <div class="col-4 col-md-2">
-            <div
-              class="img-fluid img-fluid mb-6 mb-md-8"
-              style="color: #6772e5"
-            >
-              {{> logotype/stripe}}
-            </div>
-          </div>
-          <div class="col-4 col-md-2">
-            <div
-              class="img-fluid img-fluid mb-6 mb-md-8"
-              style="color: #004f9d"
-            >
-              {{> logotype/facebook}}
-            </div>
-          </div>
-          <div class="col-4 col-md-2">
-            <div
-              class="img-fluid img-fluid mb-6 mb-md-8"
-              style="color: #cb2027"
-            >
-              {{> logotype/pinterest}}
-            </div>
-          </div>
-          <div class="col-4 col-md-2">
-            <div
-              class="img-fluid img-fluid mb-6 mb-md-8"
-              style="color: #1f8ded"
-            >
-              {{> logotype/intercom}}
-            </div>
-          </div>
-          <div class="col-4 col-md-2">
-            <div
-              class="img-fluid img-fluid mb-6 mb-md-8"
-              style="color: #7289da"
-            >
-              {{> logotype/discord}}
-            </div>
-          </div>
-          <div class="col-4 col-md-2">
-            <div
-              class="img-fluid img-fluid mb-6 mb-md-8"
-              style="color: #0080ff"
-            >
-              {{> logotype/digital-ocean}}
+
+          <div class="col-12 col-md-4 col-lg-3 d-flex">
+            <!-- Card -->
+            <div class="card mb-6 mb-lg-0 shadow-light-lg lift lift-lg">
+              <!-- Image -->
+              <a class="card-img-top" href="#!">
+                <img
+                  src="assets/img/photos/paul_2.jpg"
+                  alt="..."
+                  class="img-fluid"
+                />
+              </a>
+
+              <!-- Shape -->
+              <div class="position-relative">
+                <div class="shape shape-fluid-x shape-bottom text-white">
+                  {{> curves/curve-1}}
+                </div>
+              </div>
+
+              <!-- Body -->
+              <a class="card-body" href="#!">
+                <!-- Heading -->
+                <h3>Paul Bennett</h3>
+
+                <!-- Text -->
+                <p class="mb-0 text-muted">Sr Underwriter</p>
+              </a>
             </div>
           </div>
         </div>
+        <br />
+
         <!-- / .row -->
       </div>
       <!-- / .container -->
     </section>
 
-    <!-- SLIDER -->
-    <section>
-      <div
-        class="flickity-button-white flickity-button-inset"
-        data-flickity='{"imagesLoaded": true, "wrapAround": true, "pageDots": false}'
-      >
-        <div class="w-100">
-          <!-- Image -->
-          <img
-            src="assets/img/covers/cover-11.jpg"
-            class="img-fluid w-100"
-            alt="..."
-          />
-
-          <!-- Shape -->
-          <div class="shape shape-top shape-fluid-x text-white">
-            {{> waves/wave-1}}
-          </div>
-        </div>
-        <div class="w-100">
-          <!-- Image -->
-          <img
-            src="assets/img/covers/cover-3.jpg"
-            class="img-fluid w-100"
-            alt="..."
-          />
-
-          <!-- Shape -->
-          <div class="shape shape-top shape-fluid-x text-white">
-            {{> waves/wave-1}}
-          </div>
-        </div>
+    <!-- SHAPE -->
+    <div class="position-relative">
+      <div class="shape shape-bottom shape-fluid-x text-dark">
+        {{> curves/curve-1}}
       </div>
-    </section>
-
-    <!-- CTA -->
-    <section class="pt-6 pt-md-8">
-      <div class="container pb-6 pb-md-8 border-bottom">
-        <div class="row align-items-center">
-          <div class="col-12 col-md">
-            <!-- Heading -->
-            <h3 class="fw-bold mb-1">Interested in joining our team?</h3>
-
-            <!-- Text -->
-            <p class="fs-lg text-muted mb-5 mb-md-0">
-              Hit us up and we'll get in touch with you.
-            </p>
-          </div>
-          <div class="col-12 col-md-auto">
-            <!-- Button -->
-            <a href="#!" class="btn btn-primary lift"> Apply now </a>
-          </div>
-        </div>
-        <!-- / .row -->
-      </div>
-      <!-- / .container -->
-    </section>
+    </div>
 
     <!-- FOOTER -->
-    {{> partials/footer classList="bg-white"}}
+    {{> partials/footer classList="bg-dark"}}
 
     <!-- JAVASCRIPT -->
     {{> partials/scripts}}

@@ -55,6 +55,7 @@
 
 .navbar-brand {
   font-weight: $navbar-brand-font-weight;
+  width: 10.4rem;
 }
 
 .navbar-brand-img {
@@ -83,6 +84,10 @@
 
 .card-height {
   height: 325px;
+}
+
+.fe-x {
+  color: #333;
 }
 
 // Button
@@ -130,6 +135,11 @@
     box-shadow: $box-shadow-dark-lg;
     overflow-x: hidden;
     overflow-y: scroll;
+  }
+
+  .navbar-brand-img {
+    max-height: 4rem !important;
+    margin-top: -10px !important;
   }
 
   // Animation

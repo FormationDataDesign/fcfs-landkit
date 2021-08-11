@@ -7,12 +7,12 @@
   transition: $transition-base;
   transition-property: background-color, color;
   z-index: $zindex-fixed;
-  padding-top: 2px !important;
-  padding-bottom: 2px !important;
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
 }
 
 .navbar-marign-left {
-  margin-left: -20px;
+  margin-left: 20px;
 }
 
 .navbar-light {
@@ -58,13 +58,31 @@
 }
 
 .navbar-brand-img {
+  margin-top: -35px;
+  position: fixed;
   max-height: 4.4rem;
+  transition: max-height 0.5s;
   width: auto;
   filter: invert(1);
 }
 
+.navbar-brand-img-transparent {
+  max-height: 3.4rem;
+  width: auto;
+  opacity: 0;
+}
+
 .navbar-dark .navbar-brand {
   filter: brightness(0) invert(1);
+  .navbar-brand-img {
+    filter: brightness(0) invert(1);
+    margin-top: -35px;
+    max-height: 7rem;
+  }
+}
+
+.card-height {
+  height: 325px;
 }
 
 // Button
